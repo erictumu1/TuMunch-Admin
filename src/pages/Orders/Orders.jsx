@@ -15,9 +15,10 @@ const fetchAllOrders = async (showNotification = false) => {
       const verifiedOrders = response.data.data.filter(order => order.payment === true);
 
       if (showNotification && verifiedOrders.length > ordersRef.current.length) {
-        toast.info("New verified order received!");
+        toast.info("New order received!", {
+          className: "custom-toast",
+        });
       }
-
       setOrders(verifiedOrders);
       ordersRef.current = verifiedOrders;
     } else {

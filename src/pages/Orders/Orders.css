@@ -12,6 +12,9 @@
 .p-color {
   color: black;
 }
+.custom-toast {
+  color: black !important;
+}
 .empty-order-message {
   background-color: white;
   color: green;
