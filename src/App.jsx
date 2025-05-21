@@ -9,7 +9,7 @@ import Orders from "./pages/Orders/Orders";
 
 const App = () => {
 
-  const url = "http://localhost:5000"
+  const url = "https://tu-munch-backend-c7eb3a2e2d69.herokuapp.com"
 
   return (
     <div>
