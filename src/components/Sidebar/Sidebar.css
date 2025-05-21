@@ -4,6 +4,7 @@
   border: 1.3px solid green;
   border-top: 0;
   font-size: max(1vw, 10px);
+  margin-right: 30px;
 }
 
 .sidebar-options {
