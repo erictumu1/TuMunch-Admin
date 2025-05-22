@@ -9,7 +9,7 @@ import Orders from "./pages/Orders/Orders";
 
 const App = () => {
 
-  const url = "https://tu-munch-backend-c7eb3a2e2d69.herokuapp.com"
+  const url = "https://tumunch-backend.onrender.com"
 
   return (
     <div>
